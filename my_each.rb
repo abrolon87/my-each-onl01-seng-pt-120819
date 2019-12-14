@@ -4,5 +4,5 @@ def my_each(collection) # put argument(s) here
     yield collection
     counter + 1
   end
-  return counter# code here
+  return collection# code here
 end
