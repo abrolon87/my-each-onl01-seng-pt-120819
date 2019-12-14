@@ -9,7 +9,7 @@ def my_each(words) # put argument(s) here
 
     words
   else
-    puts "no block"
+    "no block"
   end
 end
 
