@@ -15,5 +15,5 @@ end
 
 words = ["where", "there", "when", "now"]
 my_each(words) do |word|
-  puts words
+  return words
 end
