@@ -14,6 +14,7 @@ def my_each(words) # put argument(s) here
 end
 
 words = ["where", "there", "when", "now"]
+
 my_each(words) do |word|
   words
 end
