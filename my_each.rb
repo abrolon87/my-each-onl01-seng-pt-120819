@@ -10,6 +10,7 @@ def my_each(words) # put argument(s) here
     words
   else
     puts "no block"
+  end
 end
 
 my_each(words) do |word|
