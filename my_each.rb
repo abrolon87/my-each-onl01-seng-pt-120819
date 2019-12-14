@@ -1,12 +1,15 @@
 def my_each(words) # put argument(s) here
-  counter = 0
+  if block_given?
+    counter = 0
 
-  while counter < words.length
-    yield words[counter]
-    counter = counter + 1
-  end# code here
+    while counter < words.length
+      yield(words[counter])
+      counter = counter + 1
+    end# code here
 
-  words
+    words
+  else
+    puts "no block"
 end
 
 my_each(words) do |word|
