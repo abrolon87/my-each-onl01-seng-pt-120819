@@ -3,5 +3,5 @@ def my_each(collection) # put argument(s) here
   while counter < collection.length
     yield counter
   end
-  puts counter# code here
+  return counter# code here
 end
